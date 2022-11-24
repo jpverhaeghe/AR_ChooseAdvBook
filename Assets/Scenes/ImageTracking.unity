@@ -265,10 +265,11 @@ MonoBehaviour:
       m_Calls: []
   m_XROrigin: {fileID: 1990892210}
   m_ARSessionOrigin: {fileID: 0}
-  m_PlacementPrefab: {fileID: 0}
+  m_PlacementPrefab: {fileID: 6267465561145236001, guid: 9f9907dd6f419de43a5356e571f6c6e3,
+    type: 3}
   m_FallbackLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 2147483647
   m_ObjectPlaced:
     m_PersistentCalls:
       m_Calls: []
