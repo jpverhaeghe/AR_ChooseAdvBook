@@ -8,9 +8,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/BlankAR.unity
     guid: 6bdce89659816455b9f906fc62d19910
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ImageTracking.unity
     guid: c0f10932c1f9e7f4d8a63568250aab68
+  - enabled: 0
+    path: Assets/Scenes/Phils Scene.unity
+    guid: 2c44e08e47ec04b4aaa867b01dacd897
+  - enabled: 0
+    path: Assets/Scenes/Phils Scene Test.unity
+    guid: 259e4bca3d68a45b785b1a862374125e
+  - enabled: 1
+    path: Assets/Scenes/PhilTest02.unity
+    guid: 6578332cae4c44b19b1f822ea432b1f0
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
