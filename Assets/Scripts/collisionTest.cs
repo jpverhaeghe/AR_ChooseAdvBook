@@ -8,7 +8,9 @@ public class collisionTest : MonoBehaviour
 
     public void Start()
     {
+        // need to get the UI object in the scene, then deactivate it (can't find inactive objects)
         nextPageUI = GameObject.Find("UI");
+        nextPageUI.SetActive(false);
         
     }
 
