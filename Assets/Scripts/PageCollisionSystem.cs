@@ -2,26 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class collisionTest : MonoBehaviour
+public class PageCollisionSystem : MonoBehaviour
 {
-    private GameObject nextPageUI;
+    private GameManager gameManagerScript;
 
     public void Start()
     {
-        // need to get the UI object in the scene, then deactivate it (can't find inactive objects)
-        nextPageUI = GameObject.Find("UI");
-        nextPageUI.SetActive(false);
-        
+        gameManagerScript = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.gameObject.name);
-        if (other.gameObject.CompareTag("Money"))
-        {
-            nextPageUI.SetActive(true);
-            Debug.Log("collided");
+        //Debug.Log(other.gameObject.name);
 
+        if ( (other.gameObject.CompareTag("Money") ) || (other.gameObject.CompareTag("Honey") ) )
+        {
+            gameManagerScript.nextPageUI.SetActive(true);
+            //Debug.Log("collided");
         }
     }
 }
