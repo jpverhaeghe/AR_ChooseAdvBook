@@ -33,7 +33,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 3747121188704942977
       m_GuidHigh: 12057950416862324008
-    m_Size: {x: 0.16, y: 0.22634836}
+    m_Size: {x: 0.20994186, y: 0.297}
     m_SpecifySize: 1
     m_Name: DaisyQR1
     m_Texture: {fileID: 0}
@@ -43,7 +43,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 2624362661607816166
       m_GuidHigh: 17696726712252502267
-    m_Size: {x: 0.16, y: 0.22634836}
+    m_Size: {x: 0.20994186, y: 0.297}
     m_SpecifySize: 1
     m_Name: DaisyQR2
     m_Texture: {fileID: 0}

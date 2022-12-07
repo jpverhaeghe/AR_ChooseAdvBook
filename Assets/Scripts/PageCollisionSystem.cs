@@ -2,24 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class collisionTest : MonoBehaviour
+public class PageCollisionSystem : MonoBehaviour
 {
-    private GameObject nextPageUI;
+    private GameManager gameManagerScript;
 
     public void Start()
     {
-        nextPageUI = GameObject.Find("UI");
-        
+        gameManagerScript = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.gameObject.name);
-        if (other.gameObject.CompareTag("Money"))
-        {
-            nextPageUI.SetActive(true);
-            Debug.Log("collided");
+        //Debug.Log(other.gameObject.name);
 
+        if ( (other.gameObject.CompareTag("Money") ) || (other.gameObject.CompareTag("Honey") ) )
+        {
+            gameManagerScript.nextPageUI.SetActive(true);
+            //Debug.Log("collided");
         }
     }
 }
