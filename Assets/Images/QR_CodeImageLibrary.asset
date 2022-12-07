@@ -21,9 +21,9 @@ MonoBehaviour:
       m_GuidLow: 5666133386436198320
       m_GuidHigh: 13580820086927573674
     m_SerializedTextureGuid:
-      m_GuidLow: 310047281972515860
-      m_GuidHigh: 11776197152872377289
-    m_Size: {x: 0.165, y: 0.165}
+      m_GuidLow: 11819270091647272377
+      m_GuidHigh: 16360513542943162891
+    m_Size: {x: 0.8, y: 0.8}
     m_SpecifySize: 1
     m_Name: QR
     m_Texture: {fileID: 0}
