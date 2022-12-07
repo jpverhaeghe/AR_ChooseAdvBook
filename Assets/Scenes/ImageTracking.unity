@@ -641,11 +641,17 @@ MonoBehaviour:
   - imageGuid: 6482bfb0-264b-4ea2-aac2-ce2feac378bc
     imagePrefab: {fileID: 5502410116045911700, guid: 2022f249c83b643f4bc1e22e80321a68,
       type: 3}
-  - imageGuid: f5426502-c6c8-4787-83f5-dbacdb333362
+  - imageGuid: 7ae16523-f5e7-4e90-9d8f-d99b65c2683f
+    imagePrefab: {fileID: 1499588981377020088, guid: 1e56e04801cc94bbeb4618bb81319e02,
+      type: 3}
+  - imageGuid: e8fcd810-b5e2-4bca-a344-6c6450c6b920
     imagePrefab: {fileID: 7437643010224122128, guid: cca98ea7cf1a3415c85de839466aca5f,
       type: 3}
-  - imageGuid: 516c2f3e-0c21-415e-ba95-e82d3004504e
-    imagePrefab: {fileID: 1499588981377020088, guid: 1e56e04801cc94bbeb4618bb81319e02,
+  - imageGuid: b2f42b2a-3503-485e-b5df-de7294f7e620
+    imagePrefab: {fileID: 1757848898874735656, guid: e1363a59c2ff54a4889620666a4fc83f,
+      type: 3}
+  - imageGuid: 96bc85e3-866e-47a7-a050-0de82274e1e6
+    imagePrefab: {fileID: 6289911706405541585, guid: 1a99699c5330e46998369b20515b1130,
       type: 3}
   m_ImageLibrary: {fileID: 11400000, guid: a5e8605082dbc474f8b708c7e30e033e, type: 2}
 --- !u!114 &1270675115

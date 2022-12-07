@@ -23,27 +23,47 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 11819270091647272377
       m_GuidHigh: 16360513542943162891
-    m_Size: {x: 0.8, y: 0.8}
+    m_Size: {x: 0.08, y: 0.08}
     m_SpecifySize: 1
     m_Name: QR
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5154306864959350018
-      m_GuidHigh: 7076056458120131971
+      m_GuidLow: 5661295106152555811
+      m_GuidHigh: 4569115563629580189
     m_SerializedTextureGuid:
-      m_GuidLow: 3747121188704942977
-      m_GuidHigh: 12057950416862324008
-    m_Size: {x: 0.20994186, y: 0.297}
+      m_GuidLow: 10676392969398735277
+      m_GuidHigh: 4669876813924143864
+    m_Size: {x: 0.06, y: 0.06}
     m_SpecifySize: 1
-    m_Name: DaisyQR1
+    m_Name: qrCat001
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4710215597515616062
-      m_GuidHigh: 5643014938070390202
+      m_GuidLow: 5461377484316268560
+      m_GuidHigh: 2358133928489665699
     m_SerializedTextureGuid:
-      m_GuidLow: 2624362661607816166
-      m_GuidHigh: 17696726712252502267
-    m_Size: {x: 0.20994186, y: 0.297}
+      m_GuidLow: 16463424552706646893
+      m_GuidHigh: 12145495526966634552
+    m_Size: {x: 0.06, y: 0.06}
     m_SpecifySize: 1
-    m_Name: DaisyQR2
+    m_Name: qrMountain001
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5214663708545133354
+      m_GuidHigh: 2370854470811574197
+    m_SerializedTextureGuid:
+      m_GuidLow: 14146480161499642770
+      m_GuidHigh: 6335843681937247609
+    m_Size: {x: 0.08, y: 0.08}
+    m_SpecifySize: 1
+    m_Name: qrPage002
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5163243307337024995
+      m_GuidHigh: 16636706191754219680
+    m_SerializedTextureGuid:
+      m_GuidLow: 7212634107480877055
+      m_GuidHigh: 14879089486655877641
+    m_Size: {x: 0.08, y: 0.08}
+    m_SpecifySize: 1
+    m_Name: qrPage002
     m_Texture: {fileID: 0}
