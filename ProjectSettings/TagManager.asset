@@ -7,6 +7,8 @@ TagManager:
   - WaypointsA
   - WaypointsB
   - Waypoints
+  - Money
+  - Honey
   layers:
   - Default
   - TransparentFX
