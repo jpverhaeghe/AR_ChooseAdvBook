@@ -106,15 +106,15 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.5
-    agentHeight: 2
-    agentSlope: 45
-    agentClimb: 0.4
+    agentRadius: 0.1
+    agentHeight: 1
+    agentSlope: 17.3
+    agentClimb: 0.1
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.16666667
+    cellSize: 0.033333335
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 35c40e638bd234e4d84a59030fac8c9f, type: 2}
 --- !u!1 &86790158
 GameObject:
   m_ObjectHideFlags: 0
@@ -494,9 +494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0eb73c4c501580408c74a344f6f66bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arImages: {fileID: 1270675114}
   nextPageUI: {fileID: 5407064246075235004}
-  pageText: {fileID: 8504463037715472803}
 --- !u!4 &489491478
 Transform:
   m_ObjectHideFlags: 0
@@ -641,19 +639,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PrefabsList:
   - imageGuid: 6482bfb0-264b-4ea2-aac2-ce2feac378bc
-    imagePrefab: {fileID: 5502410116045911700, guid: 2022f249c83b643f4bc1e22e80321a68,
+    imagePrefab: {fileID: 8797807734917043508, guid: d3fdb4392cae84e21be1255491b7d3b8,
       type: 3}
-  - imageGuid: 7ae16523-f5e7-4e90-9d8f-d99b65c2683f
-    imagePrefab: {fileID: 1499588981377020088, guid: 1e56e04801cc94bbeb4618bb81319e02,
-      type: 3}
-  - imageGuid: e8fcd810-b5e2-4bca-a344-6c6450c6b920
+  - imageGuid: f5426502-c6c8-4787-83f5-dbacdb333362
     imagePrefab: {fileID: 7437643010224122128, guid: cca98ea7cf1a3415c85de839466aca5f,
       type: 3}
-  - imageGuid: b2f42b2a-3503-485e-b5df-de7294f7e620
-    imagePrefab: {fileID: 1757848898874735656, guid: e1363a59c2ff54a4889620666a4fc83f,
-      type: 3}
-  - imageGuid: 96bc85e3-866e-47a7-a050-0de82274e1e6
-    imagePrefab: {fileID: 6289911706405541585, guid: 1a99699c5330e46998369b20515b1130,
+  - imageGuid: 516c2f3e-0c21-415e-ba95-e82d3004504e
+    imagePrefab: {fileID: 1499588981377020088, guid: 1e56e04801cc94bbeb4618bb81319e02,
       type: 3}
   m_ImageLibrary: {fileID: 11400000, guid: a5e8605082dbc474f8b708c7e30e033e, type: 2}
 --- !u!114 &1270675115
@@ -773,7 +765,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 500, y: 200}
+  m_SizeDelta: {x: 250, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1124285103617912160
 GameObject:
@@ -937,31 +929,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1704873445227832436}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5407064246075235004}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 489491477}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: RemoveGameObjects
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!224 &3061953547726551699
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1081,10 +1049,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 36
+    m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1111,8 +1079,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -75}
-  m_SizeDelta: {x: 120, y: 50}
+  m_AnchoredPosition: {x: 0, y: -35}
+  m_SizeDelta: {x: 50, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &8504362795949777305
 GameObject:
@@ -1154,10 +1122,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 36
+    m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -1191,8 +1159,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 40}
-  m_SizeDelta: {x: 400, y: 100}
+  m_AnchoredPosition: {x: 0, y: 20}
+  m_SizeDelta: {x: 160, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9101410628287334922
 CanvasRenderer:

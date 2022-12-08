@@ -38,6 +38,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypointIndex: 0
+  waypointIndexB: 0
+  route: 0
 --- !u!1101 &-7051305534473832947
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
