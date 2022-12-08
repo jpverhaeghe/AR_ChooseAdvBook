@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PageCollisionSystem : MonoBehaviour
 {
@@ -17,8 +18,20 @@ public class PageCollisionSystem : MonoBehaviour
 
         if ( (other.gameObject.CompareTag("Money") ) || (other.gameObject.CompareTag("Honey") ) )
         {
-            gameManagerScript.nextPageUI.SetActive(true);
-            //Debug.Log("collided");
+            // set up the next UI to show what page and set the variable for the GameManager to play the correct anim sequence
+            GameManager.ReaderChoices choice;
+            
+            if (other.gameObject.CompareTag("Money") )
+            { 
+                choice = GameManager.ReaderChoices.MONEY; 
+            }
+            else
+            {
+                choice = GameManager.ReaderChoices.HONEY;
+            }
+
+            gameManagerScript.SetUIChoiceText(choice);
+
         }
     }
 }

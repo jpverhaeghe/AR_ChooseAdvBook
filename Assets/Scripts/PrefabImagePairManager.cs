@@ -118,6 +118,14 @@ namespace UnityEngine.XR.ARFoundation.Samples
             }
         }
 
+        public void DestroyCurrentInstantiatedGameObjects()
+        {
+            foreach(GameObject gameObject in m_Instantiated.Values)
+            {
+                Destroy(gameObject);
+            }
+        }
+
 #if UNITY_EDITOR
         /// <summary>
         /// This customizes the inspector component and updates the prefab list when
