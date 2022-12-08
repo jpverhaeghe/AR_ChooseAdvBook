@@ -1,9 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARFoundation.Samples;
 
 public class GameManager : MonoBehaviour
@@ -22,7 +21,7 @@ public class GameManager : MonoBehaviour
 
     [Header("UI Elements to Use")]
     [SerializeField] GameObject nextPageUI;         // The UI to be used when reader makes choices
-    [SerializeField] Text pageText;                 // The text for the page UI that is displayed
+    [SerializeField] TMP_Text pageText;             // The text for the page UI that is displayed
 
     // public variables used by other scripts
 
