@@ -68,7 +68,7 @@ public class GameManager : MonoBehaviour
         String textOutput = "Turn to page ";
         textOutput += ( (int)readerChoice + 1) + " to continue the adventure!";
         pageText.text = textOutput;
-        nextPageUI.SetActive(true);
+        
 
         /* May not need the switch if we set it up correctly with the enum
         switch (readerChoice)
@@ -95,4 +95,10 @@ public class GameManager : MonoBehaviour
         arImages.DestroyCurrentInstantiatedGameObjects();
 
     } // end RemoveComponents
+
+    public void ShowUI()
+    {
+        nextPageUI.SetActive(true);
+
+    } // end ShowUI
 }
