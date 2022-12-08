@@ -53,7 +53,7 @@ public class WalkingAnimationState : StateMachineBehaviour
             route = 0;
         }
 
-        Debug.Log(route);
+        //Debug.Log(route);
 
         if (route == 0)
         {

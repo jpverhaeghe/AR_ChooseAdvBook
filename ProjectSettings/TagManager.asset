@@ -9,6 +9,8 @@ TagManager:
   - Waypoints
   - Money
   - Honey
+  - TestCollision
+  - Character
   layers:
   - Default
   - TransparentFX
