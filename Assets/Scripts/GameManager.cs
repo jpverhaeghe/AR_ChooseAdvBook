@@ -32,12 +32,22 @@ public class GameManager : MonoBehaviour
 
     // public variables used by other scripts
 
+    //reference to player and animator
+    GameObject player;
+    Animator anim;
+
     // private variables
     private ReaderChoices readerChoice;             // The variable to keep track of the user choices during the book reading
 
     /// <summary>
     /// Start up systems for this object
     /// </summary>
+    ///
+    private void Awake()
+    {
+
+    }
+
     private void Start()
     {
         // set the first choice to empty so
@@ -50,7 +60,9 @@ public class GameManager : MonoBehaviour
     /// </summary>
     private void Update()
     {
-
+  
+            
+    
     } // end Update
 
     /// <summary>
@@ -81,13 +93,17 @@ public class GameManager : MonoBehaviour
         textOutput += ( (int)readerChoice + 1) + " to continue the adventure!";
         pageText.text = textOutput;
 
-        GameObject player = GameObject.Find("Y Bot@Idle");
-        WalkingAnimationState walkingStateScript = player.GetComponent<WalkingAnimationState>();
-        walkingStateScript.waypointIndex = (int)readerChoice;
-        //player.GetComponent<Animator>().SetBool("isWalking", true);
-        player.GetComponent<Animator>().SetInteger("waypointIndex", (int)readerChoice);
+        // access the player through tag
+        player = GameObject.FindGameObjectWithTag("Player");
+        anim = player.GetComponent<Animator>();
 
-        Debug.Log("Walking waypoint is: " + readerChoice);
+        // set the animator parameter waypointIndex with readerChoice
+        anim.SetInteger("waypointIndex", (int)readerChoice);
+
+        //Debug.Log("animator index updated" + anim.GetInteger("waypointIndex"));
+        //Debug.Log("Walking waypoint is: " + readerChoice);
+        
+
 
         /* May not need the switch if we set it up correctly with the enum
         switch (readerChoice)
