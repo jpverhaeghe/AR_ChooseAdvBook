@@ -87,7 +87,7 @@ public class GameManager : MonoBehaviour
         //player.GetComponent<Animator>().SetBool("isWalking", true);
         player.GetComponent<Animator>().SetInteger("waypointIndex", (int)readerChoice);
 
-        //Debug.Log(player.GetComponent<Animator>().GetBool("isWalking"));
+        Debug.Log("Walking waypoint is: " + readerChoice);
 
         /* May not need the switch if we set it up correctly with the enum
         switch (readerChoice)

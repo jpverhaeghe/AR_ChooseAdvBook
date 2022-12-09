@@ -44,6 +44,7 @@ public class IdleAnimationState : StateMachineBehaviour
         // check if agents position has changed
         if (Vector3.Distance(agentPosition, waypoints[animator.GetInteger(waypointIndexHash)].position)>0.1f)
         {
+            Debug.Log("Move to walking");
             timer += Time.deltaTime;
             if (timer > 2)
             {
