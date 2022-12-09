@@ -84,7 +84,10 @@ public class GameManager : MonoBehaviour
         GameObject player = GameObject.Find("Y Bot@Idle");
         WalkingAnimationState walkingStateScript = player.GetComponent<WalkingAnimationState>();
         walkingStateScript.waypointIndex = (int)readerChoice;
-        player.GetComponent<Animator>().SetBool("isWalking", true);
+        //player.GetComponent<Animator>().SetBool("isWalking", true);
+        player.GetComponent<Animator>().SetInteger("waypointIndex", (int)readerChoice);
+
+        //Debug.Log(player.GetComponent<Animator>().GetBool("isWalking"));
 
         /* May not need the switch if we set it up correctly with the enum
         switch (readerChoice)
