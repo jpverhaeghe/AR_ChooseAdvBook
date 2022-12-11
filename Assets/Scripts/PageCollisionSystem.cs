@@ -23,7 +23,7 @@ public class PageCollisionSystem : MonoBehaviour
             
             if (other.gameObject.CompareTag("Money") )
             { 
-                choice = GameManager.ReaderChoices.MONEY; 
+                choice = GameManager.ReaderChoices.MONEY;
             }
             else
             {
@@ -31,6 +31,10 @@ public class PageCollisionSystem : MonoBehaviour
             }
 
             gameManagerScript.SetUIChoiceText(choice);
+
+            // save the item for later use in the book
+            // TODO: This is specific to the poem book we are making, make this system more generic (inventory based?)
+            gameManagerScript.itemSelected = choice;
 
         }
     }

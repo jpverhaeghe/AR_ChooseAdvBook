@@ -13,6 +13,8 @@ public class GameManager : MonoBehaviour
         EMPTY,
         HONEY,
         MONEY,
+        ENDING_1,
+        ENDING_2,
     }
 
     public enum UI_Element
@@ -31,8 +33,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] TMP_Text pageText;             // The text for the page UI that is displayed
 
     // public variables used by other scripts
+    public ReaderChoices itemSelected;
 
-    //reference to player and animator
+    // reference to player and animator
     GameObject player;
     Animator anim;
 
@@ -48,10 +51,16 @@ public class GameManager : MonoBehaviour
 
     }
 
+    /// <summary>
+    /// The start method to set up things for this script when the script is first loaded into the scene.
+    /// </summary>
     private void Start()
     {
-        // set the first choice to empty so
+        // set the first choice to empty
         SetReaderChoice(ReaderChoices.EMPTY);
+
+        // defaulting the item selected to Honey so if for some reason the item selection fails it won't crash.
+        itemSelected = ReaderChoices.HONEY;
 
     } // end Start
 
@@ -75,6 +84,10 @@ public class GameManager : MonoBehaviour
 
     } // end SetReaderChoice
 
+    /// <summary>
+    /// Gets the current reader choice as an int
+    /// </summary>
+    /// <returns>the integer value of the current readers choice</returns>
     public int GetReaderChoice()
     {
         return (int)readerChoice;
@@ -89,11 +102,9 @@ public class GameManager : MonoBehaviour
         // set the choice for this...perhaps this method is overkill...
         SetReaderChoice(choice);
 
-        String textOutput = "Turn to page ";
-        textOutput += ( (int)readerChoice + 1) + " to continue the adventure!";
-        pageText.text = textOutput;
-
         // access the player through tag
+        // TODO: since these are variables that are being kept around, this should be in the start or awake method
+        //       rather than calling them each time - even if it doesn't take much time.
         player = GameObject.FindGameObjectWithTag("Player");
         anim = player.GetComponent<Animator>();
 
@@ -137,6 +148,14 @@ public class GameManager : MonoBehaviour
     /// <param name="uiToShow">The enumerated value for the UI to show</param>
     public void ShowUI(UI_Element uiToShow)
     {
+        // if the UI to show is the next page, make sure the text is updated
+        if (uiToShow == UI_Element.NEXT_PAGE)
+        {
+            String textOutput = "Turn to page ";
+            textOutput += ((int)readerChoice + 1) + " to continue the adventure!";
+            pageText.text = textOutput;
+        }
+
         UIElements[(int)uiToShow].SetActive(true);
 
     } // end ShowUI
