@@ -12,6 +12,7 @@ public class UICollisions : MonoBehaviour
     /// <param name="other">The game object that collided with this trigger</param>
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log(other.gameObject.tag);
         // if it is the character object then it is time to show the UI to tell the reader what page to go to
         if (other.gameObject.CompareTag("Player"))
         {

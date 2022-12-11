@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 4169f851ed30e4fed8678758ed96d3f4
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CatTex
+    second: {fileID: 2100000, guid: 38830bc4ac6594c62a3b3aa018f9ee4f, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Catwalk Walking
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: -0.5
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: catMain:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: catMain:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: CatMixamo@Catwalk Walking(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: catMain:CatAr
+      parentName: CatMixamo@Catwalk Walking(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: catMain:Hips
+      parentName: CatMixamo@Catwalk Walking(Clone)
+      position: {x: -0.0017216324, y: 0.41992497, z: 0.039449252}
+      rotation: {x: 9.970166e-10, y: -7.415317e-11, z: 0.0000000046491175, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: catMain:Spine
+      parentName: catMain:Hips
+      position: {x: -0, y: 0.08322914, z: -0.00053142424}
+      rotation: {x: -0.0031924853, y: 2.2509501e-11, z: -0.000000006668642, w: 0.99999493}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: catMain:Spine1
+      parentName: catMain:Spine
+      position: {x: -0, y: 0.09710258, z: 1.1513995e-12}
+      rotation: {x: -0.0000000027939677, y: 3.4371475e-10, z: 9.963317e-10, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: catMain:Spine2
+      parentName: catMain:Spine1
+      position: {x: -0, y: 0.110974394, z: 3.7185897e-11}
+      rotation: {x: -0.0000000030267984, y: 8.2386975e-10, z: 4.9666654e-10, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: catMain:Neck
+      parentName: catMain:Spine2
+      position: {x: -0, y: 0.12484614, z: 2.7251879e-10}
+      rotation: {x: 0.0031924907, y: -5.9215466e-10, z: -2.9453467e-10, w: 0.99999493}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: catMain:Head
+      parentName: catMain:Neck
+      position: {x: -0, y: 0.15415725, z: 0.01297869}
+      rotation: {x: -0.0000000016298145, y: 5.746507e-10, z: -5.7893763e-11, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: catMain:HeadTop_End
+      parentName: catMain:Head
+      position: {x: -0, y: 0.45794997, z: 0.038555365}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: catMain:LeftShoulder
+      parentName: catMain:Spine2
+      position: {x: -0.057784393, y: 0.11065495, z: -0.00010774112}
+      rotation: {x: 0.5541299, y: -0.43899673, z: 0.5551476, w: 0.43821582}
+      scale: {x: 1, y: 1.0000005, z: 1.0000004}
+    - name: catMain:LeftArm
+      parentName: catMain:LeftShoulder
+      position: {x: -8.317812e-12, y: 0.11926891, z: 9.276714e-10}
+      rotation: {x: -0.13104723, y: 0.00021219254, z: -0.0016056597, w: 0.99137485}
+      scale: {x: 1.0000008, y: 1.0000004, z: 1}
+    - name: catMain:LeftForeArm
+      parentName: catMain:LeftArm
+      position: {x: -3.9728086e-12, y: 0.112151474, z: 1.5212932e-10}
+      rotation: {x: 0.05347906, y: -0.0012326499, z: -0.00978575, w: 0.9985203}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000004}
+    - name: catMain:LeftHand
+      parentName: catMain:LeftForeArm
+      position: {x: -4.0301384e-11, y: 0.09717103, z: 9.867989e-11}
+      rotation: {x: 0.0059082126, y: 0.026347572, z: 0.10374726, w: 0.9942371}
+      scale: {x: 0.99999976, y: 1.0000005, z: 1.0000006}
+    - name: catMain:LeftHandThumb1
+      parentName: catMain:LeftHand
+      position: {x: 0.03104929, y: 0.043165427, z: 0.0025072603}
+      rotation: {x: 0.022072805, y: -0.008886505, z: -0.37336403, w: 0.92737967}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1}
+    - name: catMain:LeftHandThumb2
+      parentName: catMain:LeftHandThumb1
+      position: {x: -0.0060169557, y: 0.042158015, z: 2.4479049e-11}
+      rotation: {x: 0.0060151676, y: 0.0006997026, z: 0.1360365, w: 0.9906853}
+      scale: {x: 1.0000002, y: 0.99999964, z: 1.0000001}
+    - name: catMain:LeftHandThumb3
+      parentName: catMain:LeftHandThumb2
+      position: {x: 0.005778626, y: 0.028524058, z: -2.849289e-10}
+      rotation: {x: 0.027120221, y: 0.0072836312, z: -0.06831464, w: 0.9972686}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
+    - name: catMain:LeftHandThumb4
+      parentName: catMain:LeftHandThumb3
+      position: {x: 0.00023832831, y: 0.021504145, z: -1.9527888e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: catMain:LeftHandIndex1
+      parentName: catMain:LeftHand
+      position: {x: 0.00989624, y: 0.11262352, z: -0.008663534}
+      rotation: {x: 0.04348854, y: -0.09081651, z: -0.008226217, w: 0.99488366}
+      scale: {x: 0.9999995, y: 0.9999999, z: 0.99999976}
+    - name: catMain:LeftHandIndex2
+      parentName: catMain:LeftHandIndex1
+      position: {x: 0.00072276866, y: 0.040174425, z: -1.9118004e-11}
+      rotation: {x: -0.020820813, y: 0.005169599, z: -0.027758788, w: 0.99938446}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000004}
+    - name: catMain:LeftHandIndex3
+      parentName: catMain:LeftHandIndex2
+      position: {x: -0.000707717, y: 0.017681314, z: -2.0185424e-10}
+      rotation: {x: 0.026304552, y: -0.006857675, z: 0.018211737, w: 0.99946463}
+      scale: {x: 0.9999999, y: 0.99999976, z: 1}
+    - name: catMain:LeftHandIndex4
+      parentName: catMain:LeftHandIndex3
+      position: {x: -0.000015053335, y: 0.020557072, z: 9.379753e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: catMain:LeftHandMiddle1
+      parentName: catMain:LeftHand
+      position: {x: -0.009896247, y: 0.14778215, z: -0.00044714042}
+      rotation: {x: 0.03244586, y: 0.00051158096, z: 0.01575619, w: 0.99934924}
+      scale: {x: 0.9999999, y: 0.99999964, z: 1}
+    - name: catMain:LeftHandMiddle2
+      parentName: catMain:LeftHandMiddle1
+      position: {x: -0.00018207623, y: 0.014924702, z: -3.0548647e-11}
+      rotation: {x: -0.0057424754, y: 0.00000008213098, z: 0.00000003813237, w: 0.99998355}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: catMain:LeftHandMiddle3
+      parentName: catMain:LeftHandMiddle2
+      position: {x: 0.000022864337, y: 0.0115402555, z: 1.9089157e-11}
+      rotation: {x: 0.0369045, y: 0.0017866361, z: -0.012712154, w: -0.99923635}
+      scale: {x: 1.0000001, y: 1.0000007, z: 1.0000006}
+    - name: catMain:LeftHandMiddle4
+      parentName: catMain:LeftHandMiddle3
+      position: {x: 0.00015921207, y: 0.0041990145, z: -1.542631e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: catMain:RightShoulder
+      parentName: catMain:Spine2
+      position: {x: 0.057784393, y: 0.11064285, z: 0.0017877892}
+      rotation: {x: 0.5631583, y: 0.43177325, z: -0.5460273, w: 0.4452851}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000005}
+    - name: catMain:RightArm
+      parentName: catMain:RightShoulder
+      position: {x: -4.5960098e-12, y: 0.11932807, z: 3.5717576e-10}
+      rotation: {x: -0.13072874, y: 0.005509808, z: -0.04174709, w: 0.99052346}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000004}
+    - name: catMain:RightForeArm
+      parentName: catMain:RightArm
+      position: {x: 8.983038e-11, y: 0.11229571, z: 4.0860895e-11}
+      rotation: {x: 0.05389467, y: 0.0026794814, z: 0.03990616, w: 0.9977453}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000001}
+    - name: catMain:RightHand
+      parentName: catMain:RightForeArm
+      position: {x: 1.9058896e-10, y: 0.09717927, z: -3.7045908e-10}
+      rotation: {x: 0.022057062, y: 0.08765469, z: -0.12114672, w: 0.9885108}
+      scale: {x: 1, y: 0.99999976, z: 1.0000002}
+    - name: catMain:RightHandIndex1
+      parentName: catMain:RightHand
+      position: {x: -0.0047071613, y: 0.10465329, z: -0.004266653}
+      rotation: {x: 0.012324842, y: 0.026838165, z: 0.023408394, w: 0.9992897}
+      scale: {x: 0.9999999, y: 1.0000004, z: 1.0000001}
+    - name: catMain:RightHandIndex2
+      parentName: catMain:RightHandIndex1
+      position: {x: -0.002463884, y: 0.045435756, z: 3.5090095e-10}
+      rotation: {x: -0.027374072, y: -0.010641697, z: 0.08506429, w: 0.99594253}
+      scale: {x: 0.9999999, y: 0.99999976, z: 1}
+    - name: catMain:RightHandIndex3
+      parentName: catMain:RightHandIndex2
+      position: {x: 0.002315947, y: 0.01726319, z: 3.5279923e-10}
+      rotation: {x: 0.030956723, y: 0.01559103, z: -0.055514637, w: 0.9978561}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000006}
+    - name: catMain:RightHandIndex4
+      parentName: catMain:RightHandIndex3
+      position: {x: 0.00014793643, y: 0.020362835, z: -1.3005476e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: catMain:RightHandMiddle1
+      parentName: catMain:RightHand
+      position: {x: 0.004707159, y: 0.14508964, z: -0.0008928492}
+      rotation: {x: -0.07659493, y: 0.0006012097, z: 0.007825918, w: -0.99703145}
+      scale: {x: 0.9999999, y: 1.0000004, z: 1.0000002}
+    - name: catMain:RightHandMiddle2
+      parentName: catMain:RightHandMiddle1
+      position: {x: -0.00011527419, y: 0.015392361, z: -4.4952755e-10}
+      rotation: {x: 0.036801804, y: 0.00016126914, z: -0.00663479, w: -0.9993006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: catMain:RightHandMiddle3
+      parentName: catMain:RightHandMiddle2
+      position: {x: 0.00012823344, y: 0.011882489, z: 6.327667e-12}
+      rotation: {x: -0.039498314, y: -0.0001780978, z: -0.00320297, w: 0.99921453}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1.0000001}
+    - name: catMain:RightHandMiddle4
+      parentName: catMain:RightHandMiddle3
+      position: {x: -0.000012959223, y: 0.006725788, z: 2.5206219e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: catMain:RightHandThumb1
+      parentName: catMain:RightHand
+      position: {x: -0.034872826, y: 0.041877735, z: -0.0056490526}
+      rotation: {x: -0.048239507, y: -0.01847913, z: 0.3572444, w: 0.9325813}
+      scale: {x: 0.9999999, y: 1.0000004, z: 1.0000001}
+    - name: catMain:RightHandThumb2
+      parentName: catMain:RightHandThumb1
+      position: {x: 0.0016246262, y: 0.04380063, z: -7.8809376e-10}
+      rotation: {x: 0.000110007844, y: -0.000004539267, z: -0.039466742, w: 0.9992209}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000006}
+    - name: catMain:RightHandThumb3
+      parentName: catMain:RightHandThumb2
+      position: {x: -0.0035568583, y: 0.029195812, z: 1.4368992e-10}
+      rotation: {x: 0.024967741, y: 0.0004073652, z: 0.10098679, w: 0.99457437}
+      scale: {x: 1, y: 0.99999917, z: 0.9999994}
+    - name: catMain:RightHandThumb4
+      parentName: catMain:RightHandThumb3
+      position: {x: 0.0019322339, y: 0.014908996, z: -2.4167518e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: catMain:LeftUpLeg
+      parentName: catMain:Hips
+      position: {x: -0.12457388, y: -0.046140976, z: -0.0011358454}
+      rotation: {x: -0.0014972312, y: 0.0134370215, z: 0.99375856, w: 0.11073039}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: catMain:LeftLeg
+      parentName: catMain:LeftUpLeg
+      position: {x: 1.3751086e-10, y: 0.16927753, z: -2.0835811e-10}
+      rotation: {x: -0.04905973, y: -0.0047814134, z: 0.09688381, w: 0.9940744}
+      scale: {x: 1.0000001, y: 0.99999976, z: 1.0000004}
+    - name: catMain:LeftFoot
+      parentName: catMain:LeftLeg
+      position: {x: -1.1795329e-11, y: 0.13189735, z: -8.332305e-11}
+      rotation: {x: 0.41838124, y: -0.121096656, z: 0.061181176, w: 0.8980811}
+      scale: {x: 1.000001, y: 1.0000008, z: 1.0000002}
+    - name: catMain:LeftToeBase
+      parentName: catMain:LeftFoot
+      position: {x: -6.4699235e-10, y: 0.09486997, z: -0.0000000015247799}
+      rotation: {x: 0.37248063, y: -0.017804345, z: 0.0071475385, w: 0.9278416}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000002}
+    - name: catMain:LeftToe_End
+      parentName: catMain:LeftToeBase
+      position: {x: -8.4047336e-10, y: 0.040453885, z: 1.5270256e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: catMain:RightUpLeg
+      parentName: catMain:Hips
+      position: {x: 0.12457388, y: -0.046140976, z: -0.0020216655}
+      rotation: {x: 0.0021246779, y: 0.019075051, z: 0.9936707, w: -0.11068046}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: catMain:RightLeg
+      parentName: catMain:RightUpLeg
+      position: {x: -0.0000000021336035, y: 0.16933735, z: 2.702468e-10}
+      rotation: {x: -0.053101555, y: 0.005172735, z: -0.09681509, w: 0.9938714}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1}
+    - name: catMain:RightFoot
+      parentName: catMain:RightLeg
+      position: {x: -4.3100277e-11, y: 0.13186708, z: -1.4426332e-10}
+      rotation: {x: 0.4165123, y: 0.12805346, z: -0.06344459, w: 0.89782774}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: catMain:RightToeBase
+      parentName: catMain:RightFoot
+      position: {x: 4.9528337e-10, y: 0.09485156, z: -8.0241876e-11}
+      rotation: {x: 0.37257022, y: 0.018030554, z: -0.0072404593, w: 0.9278006}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: catMain:RightToe_End
+      parentName: catMain:RightToeBase
+      position: {x: -1.7845046e-10, y: 0.040302172, z: -9.0295054e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
