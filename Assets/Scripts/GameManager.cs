@@ -36,8 +36,8 @@ public class GameManager : MonoBehaviour
     public ReaderChoices itemSelected;
 
     // reference to player and animator
-    GameObject player;
-    Animator anim;
+    //GameObject player;
+    //Animator anim;
 
     // private variables
     private ReaderChoices readerChoice;             // The variable to keep track of the user choices during the book reading
@@ -103,10 +103,8 @@ public class GameManager : MonoBehaviour
         SetReaderChoice(choice);
 
         // access the player through tag
-        // TODO: since these are variables that are being kept around, this should be in the start or awake method
-        //       rather than calling them each time - even if it doesn't take much time.
-        player = GameObject.FindGameObjectWithTag("Player");
-        anim = player.GetComponent<Animator>();
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        Animator anim = player.GetComponent<Animator>();
 
         // set the animator parameter waypointIndex with readerChoice
         anim.SetInteger("waypointIndex", (int)readerChoice);
@@ -114,22 +112,6 @@ public class GameManager : MonoBehaviour
         //Debug.Log("animator index updated" + anim.GetInteger("waypointIndex"));
         //Debug.Log("Walking waypoint is: " + readerChoice);
         
-
-
-        /* May not need the switch if we set it up correctly with the enum
-        switch (readerChoice)
-        {
-            case ReaderChoices.HONEY:
-                break;
-
-            case ReaderChoices.MONEY:
-                break;
-
-            default:
-                break;
-
-        }
-        */
     } // end SetUIChoiceText
 
     /// <summary>
