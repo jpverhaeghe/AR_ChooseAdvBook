@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation.Samples;
 
 public class GameManager : MonoBehaviour
@@ -30,7 +31,10 @@ public class GameManager : MonoBehaviour
 
     [Header("UI Elements to Use")]
     [SerializeField] GameObject[] UIElements;       // The UI elements to be used
-    [SerializeField] TMP_Text pageText;             // The text for the page UI that is displayed
+    [SerializeField] TMP_Text infoText;             // The text for the info page UI that is displayed
+    [SerializeField] Texture[] itemImages;          // The images (as textures) that can be displayed in the next page UI
+    [SerializeField] RawImage choiceImage;          // The image to update in the next page UI
+    [SerializeField] TMP_Text pageText;             // The text for the next page UI that is displayed
 
     // public variables used by other scripts
     public ReaderChoices itemSelected;
@@ -133,7 +137,22 @@ public class GameManager : MonoBehaviour
         // if the UI to show is the next page, make sure the text is updated
         if (uiToShow == UI_Element.NEXT_PAGE)
         {
-            String textOutput = "Turn to page ";
+            String textOutput = "";
+
+            // change up the info text if the honey or money were used
+            if ( (readerChoice == ReaderChoices.HONEY) || (readerChoice == ReaderChoices.MONEY) )
+            {
+                // set up the text
+                textOutput = "You have chosen the ";
+                textOutput += readerChoice.ToString().ToLower() + " to go with you!";
+                infoText.text= textOutput;
+
+                // change the image
+                choiceImage.texture = itemImages[(int)readerChoice - 1];
+            }
+
+            // set up the next page text
+            textOutput = "Turn to page ";
             textOutput += ((int)readerChoice + 1) + " to continue the adventure!";
             pageText.text = textOutput;
         }
