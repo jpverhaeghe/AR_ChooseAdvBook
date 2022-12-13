@@ -31,11 +31,11 @@ MonoBehaviour:
       m_GuidLow: 5661295106152555811
       m_GuidHigh: 4569115563629580189
     m_SerializedTextureGuid:
-      m_GuidLow: 10676392969398735277
-      m_GuidHigh: 4669876813924143864
+      m_GuidLow: 15345988543095003616
+      m_GuidHigh: 15775692876487144954
     m_Size: {x: 0.06, y: 0.06}
     m_SpecifySize: 1
-    m_Name: qrCat001
+    m_Name: HoneyQR
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 5214663708545133354
@@ -55,15 +55,25 @@ MonoBehaviour:
       m_GuidHigh: 14879089486655877641
     m_Size: {x: 0.08, y: 0.08}
     m_SpecifySize: 1
-    m_Name: qrPage002
+    m_Name: qrPage003
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 4622283223065977794
       m_GuidHigh: 262105541685707680
     m_SerializedTextureGuid:
-      m_GuidLow: 2617298991427078937
-      m_GuidHigh: 2420297390026625082
-    m_Size: {x: 0.06, y: 0.06}
+      m_GuidLow: 17604826499568306063
+      m_GuidHigh: 18316897352670530315
+    m_Size: {x: 0.06, y: 0.060114503}
     m_SpecifySize: 1
-    m_Name: qrLight001
+    m_Name: MoneyQR
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5516638797432265457
+      m_GuidHigh: 7725956153943987881
+    m_SerializedTextureGuid:
+      m_GuidLow: 9546537148985913252
+      m_GuidHigh: 2816323669907049755
+    m_Size: {x: 0.6, y: 0.6011451}
+    m_SpecifySize: 1
+    m_Name: DestinationQR
     m_Texture: {fileID: 0}
