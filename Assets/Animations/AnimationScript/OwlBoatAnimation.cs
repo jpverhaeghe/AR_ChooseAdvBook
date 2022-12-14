@@ -38,7 +38,7 @@ public class OwlBoatAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("index: " + animationIndex);
+        //Debug.Log("index: " + animationIndex);
         animator.SetInteger("AnimationSelect", animationIndex);
     }
 }

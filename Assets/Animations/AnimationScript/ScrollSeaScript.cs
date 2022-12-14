@@ -17,7 +17,7 @@ public class ScrollSeaScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(rend);
+        //Debug.Log(rend);
         float offsetX = Mathf.Sin(Time.time * scrollSpeedX);
         float xClamp = Mathf.Clamp(offsetX, -0.04f, 0.04f);
         float offsetY = Mathf.Sin(Time.time * scrollSpeedY);

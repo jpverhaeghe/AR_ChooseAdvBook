@@ -31,6 +31,7 @@ public class PageCollisionSystem : MonoBehaviour
             }
             else
             {
+                //Debug.Log("collided with ending: " + other.gameObject.tag);
                 choice = GameManager.ReaderChoices.ENDING_1;
             }
 
