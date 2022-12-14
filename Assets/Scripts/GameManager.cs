@@ -111,7 +111,15 @@ public class GameManager : MonoBehaviour
         Animator anim = player.GetComponent<Animator>();
 
         // set the animator parameter waypointIndex with readerChoice
-        anim.SetInteger("waypointIndex", (int)readerChoice);
+        int waypointIndex = (int)readerChoice;
+
+        // Hard coded to get the animation to go to the correct waypoint
+        if (choice == ReaderChoices.ENDING_1)
+        {
+            waypointIndex -= 2;
+        }
+
+        anim.SetInteger("waypointIndex", waypointIndex);
 
         //Debug.Log("animator index updated" + anim.GetInteger("waypointIndex"));
         //Debug.Log("Walking waypoint is: " + readerChoice);

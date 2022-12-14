@@ -16,7 +16,7 @@ public class PageCollisionSystem : MonoBehaviour
     {
         //Debug.Log(other.gameObject.name);
 
-        if ( (other.gameObject.CompareTag("Money") ) || (other.gameObject.CompareTag("Honey") ) )
+        if ( (other.gameObject.CompareTag("Money") ) || (other.gameObject.CompareTag("Honey") ) || (other.gameObject.CompareTag("Ending") ) )
         {
             // set up the next UI to show what page and set the variable for the GameManager to play the correct anim sequence
             GameManager.ReaderChoices choice;
@@ -25,9 +25,13 @@ public class PageCollisionSystem : MonoBehaviour
             { 
                 choice = GameManager.ReaderChoices.MONEY;
             }
-            else
+            else if (other.gameObject.CompareTag("Honey") )
             {
                 choice = GameManager.ReaderChoices.HONEY;
+            }
+            else
+            {
+                choice = GameManager.ReaderChoices.ENDING_1;
             }
 
             gameManagerScript.SetUIChoiceText(choice);
