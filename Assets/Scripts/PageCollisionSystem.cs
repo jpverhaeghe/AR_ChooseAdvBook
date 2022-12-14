@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class PageCollisionSystem : MonoBehaviour
 {
     private GameManager gameManagerScript;
+    public AudioSource audioS;
+    public AudioClip collidedNotice;
 
     public void Start()
     {
@@ -40,6 +42,10 @@ public class PageCollisionSystem : MonoBehaviour
             // save the item for later use in the book
             // TODO: This is specific to the poem book we are making, make this system more generic (inventory based?)
             gameManagerScript.itemSelected = choice;
+
+            //trigger the sound when collision happen
+
+            audioS.PlayOneShot(collidedNotice);
 
         }
     }

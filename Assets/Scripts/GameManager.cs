@@ -161,7 +161,7 @@ public class GameManager : MonoBehaviour
 
             // set up the next page text
             textOutput = "Turn to page ";
-            textOutput += ((int)readerChoice + 1) + " to continue the adventure!";
+            textOutput += ((int)readerChoice + 1) + " to continue!";
             pageText.text = textOutput;
         }
 
