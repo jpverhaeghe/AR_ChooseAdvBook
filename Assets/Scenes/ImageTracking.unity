@@ -1935,10 +1935,8 @@ MonoBehaviour:
   - {fileID: 1888491561}
   - {fileID: 1387231401}
   infoText: {fileID: 0}
-  itemImages:
-  - {fileID: 2800000, guid: 7cb0359f74a961645bf4505a102a5358, type: 3}
-  - {fileID: 2800000, guid: a8855b197ed4d4fbd90cd00c65ec36f3, type: 3}
-  choiceImage: {fileID: 1388116092}
+  itemImages: []
+  choiceImage: {fileID: 0}
   pageText: {fileID: 1329603428}
   itemSelected: 1
 --- !u!4 &489491478
@@ -4618,16 +4616,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PrefabsList:
   - imageGuid: 6482bfb0-264b-4ea2-aac2-ce2feac378bc
-    imagePrefab: {fileID: 8797807734917043508, guid: 3ed6a0413ac6b448daa5e1b418367919,
+    imagePrefab: {fileID: 8797807734917043508, guid: 024050972141f47209b0e84b6f13306d,
       type: 3}
   - imageGuid: 7ae16523-f5e7-4e90-9d8f-d99b65c2683f
     imagePrefab: {fileID: 1499588981377020088, guid: 1e56e04801cc94bbeb4618bb81319e02,
       type: 3}
   - imageGuid: b2f42b2a-3503-485e-b5df-de7294f7e620
-    imagePrefab: {fileID: 1757848898874735656, guid: e1363a59c2ff54a4889620666a4fc83f,
+    imagePrefab: {fileID: 8797807734917043508, guid: 5c343ad1935d043df8d92a2b1aa8b327,
       type: 3}
   - imageGuid: 96bc85e3-866e-47a7-a050-0de82274e1e6
-    imagePrefab: {fileID: 6289911706405541585, guid: 1a99699c5330e46998369b20515b1130,
+    imagePrefab: {fileID: 8797807734917043508, guid: a18ee5c710c824ef4aecd2092fe4656f,
       type: 3}
   - imageGuid: fa1863c2-a619-4025-a083-d6f9992fa303
     imagePrefab: {fileID: 7437643010224122128, guid: cca98ea7cf1a3415c85de839466aca5f,
