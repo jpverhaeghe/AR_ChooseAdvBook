@@ -1844,6 +1844,7 @@ MonoBehaviour:
   - {fileID: 1387231401}
   infoText: {fileID: 1123211798}
   itemImages:
+  - {fileID: 2800000, guid: 264829eb019ad479c8fabad7944da009, type: 3}
   - {fileID: 2800000, guid: 902e17319e7e244e3b09db3f603d8039, type: 3}
   - {fileID: 2800000, guid: 6986c7986266042199bc5b013f73e7df, type: 3}
   choiceImage: {fileID: 1388116092}

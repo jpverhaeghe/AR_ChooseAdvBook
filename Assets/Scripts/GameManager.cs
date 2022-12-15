@@ -156,7 +156,12 @@ public class GameManager : MonoBehaviour
                 infoText.text= textOutput;
 
                 // change the image
-                choiceImage.texture = itemImages[(int)readerChoice - 1];
+                choiceImage.texture = itemImages[(int)readerChoice];
+            }
+            else
+            {
+                infoText.text = "You have chosen your route!";
+                choiceImage.texture = itemImages[0];
             }
 
             // set up the next page text
